@@ -72,7 +72,7 @@ Adjust the parameters in the `test_calculations()` function based on your system
        - Mixed finished in: 17.18 second(s).
       
 2. **Parameters:**
-   - 100 threads | 6 processes | 20 threads in 5 processes
+   - 200 threads | 20 processes | 25 threads in 4 processes
      - Input size: 100,000 figures.
        - Regular finished in: 1.77 second(s).
        - Threads finished in: 1.4 second(s).

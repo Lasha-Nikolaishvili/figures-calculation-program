@@ -3,7 +3,7 @@
 
 # Figures Calculation Program
 
-The Figures Calculation Program is a Python application designed to demonstrate the performance impact of different concurrency strategies (regular, threading, multiprocessing, and mixed) on calculating areas of geometric figures. The program defines three types of figures: Trapezoid, Rectangle, and Square, each inheriting from the previous one, showcasing method overriding and inheritance in object-oriented programming.
+The Figures Calculation Program is a Python application designed to demonstrate the performance impact of different concurrency strategies (regular, threading, multiprocessing, and mixed) on calculating areas of geometric figures **(you can find the results of the trials at the end of the README)**. The program defines three types of figures: Trapezoid, Rectangle, and Square, each inheriting from the previous one, showcasing method overriding and inheritance in object-oriented programming.
 
 ## Features
 
@@ -53,35 +53,38 @@ Adjust the parameters in the `test_calculations()` function based on your system
 
 ## Trials
 
-1. parameters: | 100 threads | 6 processes | 20 threads in 5 processes
- * input size: 100 000 figures.
-   * Regular finished in:  1.76  second(s).
-   * Threads finished in:  1.42  second(s).
-   * Processes finished in:  1.36  second(s).
-   * Mixed finished in:  1.43  second(s).
- * input size: 500 000 figures.
-   * Regular finished in:  9.43  second(s).
-   * Threads finished in:  8.42  second(s).
-   * Processes finished in:  5.24  second(s).
-   * Mixed finished in:  7.78  second(s).
- * input size: 1 000 000 figures.
-  * Regular finished in:  18.2  second(s).
-  * Threads finished in:  17.2  second(s). 
-  * Processes finished in:  10.14  second(s).
-  * Mixed finished in:  17.18  second(s).
-2. parameters: | 100 threads | 6 processes | 20 threads in 5 processes
- * input size: 100 000 figures.
-  * Regular finished in:  1.77  second(s).
-  * Threads finished in:  1.4  second(s).
-  * Processes finished in:  2.44  second(s).
-  * Mixed finished in:  1.44  second(s).
- * input size: 500 000 figures.
-  * Regular finished in:  9.47  second(s).
-  * Threads finished in:  7.95  second(s).
-  * Processes finished in:  5.83  second(s).
-  * Mixed finished in:  8.04  second(s).
- * input size: 1 000 000 figures.
-  * Regular finished in:  19.16  second(s).
-  * Threads finished in:  16.83  second(s).
-  * Processes finished in:  10.3  second(s).
-  * Mixed finished in:  17.59  second(s).
+1. **Parameters:**
+   - 100 threads | 6 processes | 20 threads in 5 processes
+     - Input size: 100,000 figures.
+       - Regular finished in: 1.76 second(s).
+       - Threads finished in: 1.42 second(s).
+       - Processes finished in: 1.36 second(s).
+       - Mixed finished in: 1.43 second(s).
+     - Input size: 500,000 figures.
+       - Regular finished in: 9.43 second(s).
+       - Threads finished in: 8.42 second(s).
+       - Processes finished in: 5.24 second(s).
+       - Mixed finished in: 7.78 second(s).
+     - Input size: 1,000,000 figures.
+       - Regular finished in: 18.2 second(s).
+       - Threads finished in: 17.2 second(s).
+       - Processes finished in: 10.14 second(s).
+       - Mixed finished in: 17.18 second(s).
+      
+2. **Parameters:**
+   - 100 threads | 6 processes | 20 threads in 5 processes
+     - Input size: 100,000 figures.
+       - Regular finished in: 1.77 second(s).
+       - Threads finished in: 1.4 second(s).
+       - Processes finished in: 2.44 second(s).
+       - Mixed finished in: 1.44 second(s).
+     - Input size: 500,000 figures.
+       - Regular finished in: 9.47 second(s).
+       - Threads finished in: 7.95 second(s).
+       - Processes finished in: 5.83 second(s).
+       - Mixed finished in: 8.04 second(s).
+     - Input size: 1,000,000 figures.
+       - Regular finished in: 19.16 second(s).
+       - Threads finished in: 16.83 second(s).
+       - Processes finished in: 10.3 second(s).
+       - Mixed finished in: 17.59 second(s).

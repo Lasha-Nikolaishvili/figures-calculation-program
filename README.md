@@ -88,3 +88,6 @@ Adjust the parameters in the `test_calculations()` function based on your system
        - Threads finished in: 16.83 second(s).
        - Processes finished in: 10.3 second(s).
        - Mixed finished in: 17.59 second(s).
+
+## TODOS
+ * Integrate with PyQt5.
